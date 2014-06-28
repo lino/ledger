@@ -12,6 +12,7 @@ scala:
 jdk:
   - oraclejdk7
 notifications:
+    irc: "chat.freenode.net#linoio"
     email:
       - recipients: lino+travis@lino.io
     on_success: always
