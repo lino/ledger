@@ -16,7 +16,9 @@ libraryDependencies ++= {
   Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaV,
   "io.spray" % "spray-can" % sprayV,
-  "org.specs2" %% "specs2" % "2.3.12" % "test"
+  "org.specs2" %% "specs2" % "2.3.12" % "test",
+  "com.typesafe.slick" %% "slick" % "2.1.0-M2",
+  "org.slf4j" % "slf4j-nop" % "1.6.4"
   )
 }
 
